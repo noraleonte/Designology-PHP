@@ -1,0 +1,140 @@
+/* Sign up section */
+body {
+    color: #16161f !important;
+}
+
+label {
+    color: #16161f;
+}
+
+.horizontal {
+    display: flex;
+    max-width: 90vw;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto auto;
+}
+
+.image {
+
+    max-width: 800px;
+    margin: 5vh 5vw;
+}
+
+.right_items {
+    margin: 0 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.horizontal svg {
+    align-self: center;
+}
+
+.horizontal path:hover {
+    fill: #16161f;
+}
+
+.horizontal a {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #8791c8;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vh 0;
+}
+
+.bottom a {
+    margin: 1vh 1vw;
+    text-decoration: none;
+    color: #8791c8;
+}
+
+.bottom a:hover,
+.horizontal a:hover {
+    text-decoration: underline;
+    color: #4725f1;
+}
+
+.bottom .login {
+    justify-content: flex-start;
+}
+
+/* The Modal (background) */
+.modal {
+    /* display: none; */
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 150;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    display: flex;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fff;
+    margin: auto auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 80%;
+    height: 30vh;
+    position: relative;
+}
+
+/* The Close Button */
+
+#close {
+    float: right;
+    cursor: pointer;
+}
+
+#close:hover path,
+#close:focus path {
+    stroke: #494949;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.red {
+    background-color: #ed7e7e;
+}
+
+.green {
+    background-color: #8bc18d;
+}
+
+.userData {
+    margin: 3% auto;
+}
+
+#yes {
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}
