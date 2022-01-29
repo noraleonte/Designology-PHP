@@ -4,7 +4,7 @@ class Dbh
 {
     private $host = "localhost";
     private $user = "root";
-    private $pwd = "furnicutzaSQL";
+    private $pwd = "";
     private $dbName = "licenta";
 
     protected function connect()
